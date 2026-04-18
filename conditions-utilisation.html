@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conditions d'utilisation – WebCraft</title>
+  <style>
+    :root {
+      --font-sans: system-ui, sans-serif;
+      --color-bg: #f9f9f9;
+      --color-surface: #ffffff;
+      --color-text: #222222;
+      --color-muted: #555555;
+      --radius: 6px;
+      --spacing: 1.5rem;
+      --max-width: 760px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin:0; padding:0; }
+    body {
+      font-family: var(--font-sans);
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.7;
+    }
+    a { color: var(--color-primary, #0066cc); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header, section { padding: var(--spacing) 0; }
+    .container { width: 90%; max-width: var(--max-width); margin: auto; }
+    h1 { margin-bottom: var(--spacing); font-size: 1.8rem; }
+    h2 { margin-top: var(--spacing); margin-bottom: 0.75rem; font-size: 1.4rem; color: #004c99; }
+    p { margin-bottom: 1rem; }
+    .back-link { display: inline-block; margin-bottom: var(--spacing); color: var(--color-muted); }
+    .back-link:hover { text-decoration: underline; }
+    footer { text-align: center; font-size: 0.85rem; color: var(--color-muted); padding-top: var(--spacing); border-top: 1px solid #eee; margin-top: var(--spacing); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">← Retour à l'accueil</a>
+    <h1>Conditions d'utilisation</h1>
+    <p>Dernière mise à jour : 18 avril 2026</p>
+
+    <section>
+      <h2>1. Acceptation des termes</h2>
+      <p>En accédant ou en utilisant le site web <strong>aurell.it.com</strong> et les services de WebCraft, vous acceptez d'être lié par les présentes Conditions d'utilisation. Si vous n'acceptez pas ces termes, veuillez ne pas utiliser nos services.</p>
+    </section>
+
+    <section>
+      <h2>2. Services fournis</h2>
+      <p>WebCraft propose des services de création de sites web clés en main, incluant le design, l'intégration de contenus et la mise en ligne, selon les forfaits présentés sur la page d'accueil.</p>
+    </section>
+
+    <section>
+      <h2>3. Paiement</h2>
+      <p>Les paiements sont effectués via PayPal.Me (<code>paypal.me/hckrs71</code>). Les prix sont indiqués en dollars canadiens (CAD) et comprennent les taxes applicables. Aucun remboursement ne sera effectué après le début des travaux, sauf accord écrit préalable.</p>
+    </section>
+
+    <section>
+      <h2>4. Propriété intellectuelle</h2>
+      <p>Tous les livrables (maquettes, code, contenus intégrés) restent la propriété de WebCraft jusqu'au paiement complet. Une fois le paiement reçu intégralement, vous obtenez une licence d'utilisation non exclusive, mondiale et libre de redevances pour les livrables fournis.</p>
+    </section>
+
+    <section>
+      <h2>5. Limitation de responsabilité</h2>
+      <p>WebCraft ne pourra être tenu responsable des dommages indirects, perte de profits ou perte de données résultant de l'utilisation ou de l'impossibilité d'utiliser nos services. Notre responsabilité totale sera limitée au montant payé par vous pour les services concernés.</p>
+    </section>
+
+    <section>
+      <h2>6. Loi applicable</h2>
+      <p>Les présentes Conditions d'utilisation sont régies et interprétées conformément aux lois de la province de Québec, Canada, sans égard à ses principes de conflit de lois.</p>
+    </section>
+
+    <section>
+      <h2>7. Modifications</h2>
+      <p>WebCraft se réserve le droit de modifier ces Conditions d'utilisation à tout moment. Les modifications entrent en vigueur dès leur publication sur cette page. Votre continued utilisation des services après modification vaut acceptation.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="year"></span> WebCraft. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
